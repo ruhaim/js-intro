@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Vanila Todo Application</title>
+        <script type="text/javascript" role="application" src="index.js" ></script>
+        <script type="text/javascript">
+            var MyApp = new TodoApp();
+        </script>
+    </head>
+    <body>
+        <input type="text" id="todoInput" onkeydown="MyApp.onKeydown(event)">
+        <ul id="listContent"></ul>
+    </body>
+</html>

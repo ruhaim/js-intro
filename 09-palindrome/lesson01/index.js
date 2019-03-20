@@ -15,5 +15,9 @@ function isPalindrome(value){
         }
     }
 
-    document.getElementById('message').innerText = is.toString();
+    return is;
+}
+
+function getIsPalandrome(value){
+    document.getElementById('message').innerText = isPalindrome(value.toLowerCase());
 }

@@ -1,0 +1,28 @@
+<html>
+<head>
+	<title>My First JavaScript code!!!</title>
+	<script>
+                function joinItems(){
+                        var joined = "";
+                        for (var i = 0; i < arguments.length; i++) {
+                                joined += arguments[i] + ", ";
+                        }
+                        return joined;
+                }
+                //
+                // Calling functions
+                var returnedVal1 = joinItems(1, 2);
+                var returnedVal2 = joinItems(1, 2, 3);
+                var returnedVal3 = joinItems(1, 2, 3, 4);
+                var returnedVal4 = joinItems(1, 2, 3, 4, 5);
+
+                //
+                console.log(returnedVal1);
+                console.log(returnedVal2);
+                console.log(returnedVal3);
+                console.log(returnedVal4);
+	</script>
+</head>
+<body>
+</body>
+</html>
